@@ -1,32 +1,41 @@
-# mmwtsn.com
+# Sinatra Boilerplate!
 
-This is a very simple web site that contains my blog, portfolio and some personal information. It was started as an exercise in lightweight web development and was built in Ruby, HTML5 and [SASS](http://sass-lang.com/) using [Sinatra](http://www.sinatrarb.com/). All of the blog posts are written in [Markdown](http://daringfireball.net/projects/markdown/) and processed with [rdiscount](https://github.com/davidfstr/rdiscount).
+## What's Included
 
-**It is still being developed and is not currently complete.**
+A simple project boilerplate for prototyping small ideas in Ruby using Sinatra. The goal of this project was to provide a vanilla TDD environment with all one needs to get started and nothing more. You'll find:
 
-## BUILDING LOCALLY
-My site is open source. Feel free to fork it, bork it, twerk it as you please. To run the site locally you'll need:
+- [Sinatra](http://www.sinatrarb.com/)
+- [RSpec](https://github.com/rspec/rspec) and [Guard](https://github.com/guard/guard) for testing
+- [Compass](http://compass-style.org/) to handle [SCSS](http://sass-lang.com/)
+- [Shotgun](https://github.com/rtomayko/shotgun) to allow for page reloads without server interruption on file change
+- Semantic HTML5
 
-* Ruby 1.93 or later
-* RubyGems
-* Bundler
+## What's Not Included
 
-To get started run `bundle install` to set up your local environment with any required RubyGems followed by `shotgun` to fire up the server.
+- a database
+- legacy browser support
+- page analytics
 
-## DEVELOPMENT GOALS
-Development goals for non-portfolio pages:
+If you find this useful or have any questions, I am [@mmwtsn](https://twitter.com/mmwtsn) on Twitter.
 
-* No more than 5 HTTP requests.
-* No more than 15kb total file size.
-* Completely responsive down to 320px.
-* Vanilla JavaScript.
-* Clean legible typography.
+The MIT License (MIT)
 
-## TODO
-Features to be built:
+Copyright (c) [2014] [M. Maxwell Watson]
 
-* Deploy to `http://mmwtsn.com/`.
-* Continuous integration.
-* Basic test coverage.
-* Basic page caching.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
