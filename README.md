@@ -1,4 +1,4 @@
-# Sinatra Boilerplate!
+# Sinatra Boilerplate
 
 ## What's Included
 
