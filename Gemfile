@@ -11,5 +11,7 @@ group :development, :test do
   gem 'rack-test', :require => "rack/test"
   gem 'rb-fsevent'
   gem 'guard-rspec', require: false
+  gem 'guard-jasmine'
+  gem 'jasmine'
 end
 
