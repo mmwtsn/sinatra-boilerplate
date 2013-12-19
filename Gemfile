@@ -16,5 +16,5 @@ group :development, :test do
   gem 'jasmine'
 
   gem 'guard-rspec', require: false
-  gem 'guard-jasmine'
+  gem 'guard-livereload'
 end

@@ -4,3 +4,9 @@ guard :rspec, cli: '--color' do
   watch('spec/spec_helper.rb')  { "spec" }
 end
 
+guard 'livereload' do
+  watch(%r{^spec/javascripts/.*/(.*)\.js})
+  watch(%r{^spec/javascripts/(.*)\.js})
+  watch(%r{^javascripts/.*/(.*)\.js})
+  watch(%r{^javascripts/(.*)\.js})
+end
