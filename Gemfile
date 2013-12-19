@@ -3,13 +3,18 @@ source 'https://rubygems.org'
 gem 'sinatra'
 
 group :development, :test do
-  gem 'compass'
   gem 'thin'
   gem 'shotgun'
+  gem 'compass'
+
   gem 'rspec'
+  gem 'rb-fsevent'
+
   gem 'rack'
   gem 'rack-test', :require => "rack/test"
-  gem 'rb-fsevent'
-  gem 'guard-rspec', require: false
-end
 
+  gem 'jasmine'
+
+  gem 'guard-rspec', require: false
+  gem 'guard-livereload'
+end
